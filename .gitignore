@@ -50,3 +50,6 @@ __pycache__/
 # Electron
 release/
 .runtime/
+
+# Generated media from the kie MCP server (kie-mcp writes to ./kie/assets/raw)
+/kie/

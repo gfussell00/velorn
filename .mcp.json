@@ -3,6 +3,14 @@
     "velorn": {
       "type": "http",
       "url": "http://127.0.0.1:19790/mcp"
+    },
+    "kie": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "kie-mcp@5.2.1"],
+      "env": {
+        "KIE_API_KEY": "${KIE_API_KEY}"
+      }
     }
   }
 }
